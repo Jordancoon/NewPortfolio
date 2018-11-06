@@ -13,6 +13,6 @@ $(document).ready(function(){
         $(".sec-B").addClass("showing");
     });
     $(".back-btn").on("click",function(){
-        $(".sec-B").removeClass("showing");
+        $(".sec-A").removeClass("showing");
     });
 });
